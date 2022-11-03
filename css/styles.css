@@ -404,14 +404,12 @@ button {
 }
 
 .member-social {
-  display: inline-block;
+  display: block;
   content: "";
+  justify-content: center;
   width: 44px;
   height: 44px;
   background-color: #ffffff;
-  background-size: ;
-  background-repeat: no-repeat;
-  background-position: center;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -420,6 +418,8 @@ button {
   fill: #afb1b8;
   margin-right: 10px;
   margin-bottom: 42px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .member-icon:hover {
