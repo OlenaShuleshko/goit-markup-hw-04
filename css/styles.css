@@ -263,8 +263,12 @@ button {
   gap: 30px;
   flex-wrap: wrap;
 }
-
-.antenna::before {
+.features-icons {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+/*--.antenna::before {
   display: block;
   content: "";
   height: 120px;
@@ -288,7 +292,6 @@ button {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-
 .diagram::before {
   display: block;
   content: "";
@@ -301,7 +304,6 @@ button {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-
 .astronaut::before {
   display: block;
   content: "";
@@ -313,7 +315,7 @@ button {
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-}
+}--*/
 
 .features-items {
   width: 270px;
@@ -324,7 +326,6 @@ button {
   font-size: 36px;
   line-height: 1.15;
   letter-spacing: 0.03em;
-
   text-align: center;
   margin-bottom: 50px;
 }
@@ -342,6 +343,7 @@ button {
   width: 370px;
   height: 294px;
 }
+
 /*--Команда--*/
 
 .team-text {
@@ -369,6 +371,21 @@ button {
 .members {
   margin-bottom: 10px;
 }
+
+/*--
+.social-team {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-image: url(../images/instagramteam.svg);
+  background-color: #ffffff;
+  background-size: ;
+  background-repeat: no-repeat;
+  background-position: ;
+  border-radius: 50%;
+}
+--*/
+
 .title {
   font-family: "Roboto";
   font-style: normal;
@@ -385,8 +402,106 @@ button {
   padding-bottom: 94px;
 }
 
-/*--footer--*/
+/*--before-footer::before {
+  background-image: url(../images/company1.svg);
+  display: block;
+  content: "";
+  height: 92px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 4px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  margin-bottom: 94px;--*/
 
+.title-clients {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 94px;
+}
+
+.client1,
+.client2,
+.client3,
+.client4,
+.client5,
+.client6 {
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 92px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 4px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  margin: 50px 30px 94px;
+  padding: 16px 32px;
+  fill: #afb1b8;
+  cursor: pointer;
+}
+
+.clients-company:hover .client1 {
+  border-color: var(--acent-color);
+}
+.clients-company:hover .client2 {
+  border-color: var(--acent-color);
+}
+.clients-company:hover .client3 {
+  border-color: var(--acent-color);
+}
+.clients-company:hover .client4 {
+  border-color: var(--acent-color);
+}
+.clients-company:hover .client5 {
+  border-color: var(--acent-color);
+}
+.clients-company:hover .client6 {
+  border-color: var(--acent-color);
+}
+
+.client1:hover {
+  fill: var(--acent-color);
+}
+.client1:focus {
+  fill: var(--acent-color);
+}
+.client2:hover {
+  fill: var(--acent-color);
+}
+.client2:focus {
+  fill: var(--acent-color);
+}
+.client3:hover {
+  fill: var(--acent-color);
+}
+.client3:focus {
+  fill: var(--acent-color);
+}
+.client4:hover {
+  fill: var(--acent-color);
+}
+.client4:focus {
+  fill: var(--acent-color);
+}
+.client5:hover {
+  fill: var(--acent-color);
+}
+.client5:focus {
+  fill: var(--acent-color);
+}
+.client6:hover {
+  fill: var(--acent-color);
+}
+.client6:focus {
+  fill: var(--acent-color);
+}
+
+/*--footer--*/
 .footer {
   padding: 60px 0;
   background-color: var(--background-footer-color);
