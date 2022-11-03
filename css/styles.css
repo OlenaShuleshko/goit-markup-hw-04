@@ -173,6 +173,37 @@ button {
   align-items: center;
 }
 
+.nav-icon {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 16px;
+  background-size: contain;
+  margin-right: 10px;
+  fill: #afb1b8;
+}
+.nav-icon:hover {
+  fill: var(--acent-color);
+}
+.nav-icon:focus {
+  fill: var(--acent-color);
+}
+
+/*--
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 92px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 4px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  margin: 50px 30px 94px;
+  padding: 16px 32px;
+  fill: #afb1b8;
+  cursor: pointer;--*/
+
 /*--hero--*/
 
 .hero-title,
@@ -372,20 +403,31 @@ button {
   margin-bottom: 10px;
 }
 
-/*--
-.social-team {
+.member-social {
   display: inline-block;
+  content: "";
   width: 44px;
   height: 44px;
-  background-image: url(../images/instagramteam.svg);
   background-color: #ffffff;
   background-size: ;
   background-repeat: no-repeat;
-  background-position: ;
+  background-position: center;
   border-radius: 50%;
+  cursor: pointer;
 }
---*/
 
+.member-icon {
+  fill: #afb1b8;
+  margin-right: 10px;
+  margin-bottom: 42px;
+}
+
+.member-icon:hover {
+  fill: var(--background-color);
+}
+.icon-link:hover .member-icon {
+  background-color: var(--acent-color);
+}
 .title {
   font-family: "Roboto";
   font-style: normal;
@@ -402,7 +444,8 @@ button {
   padding-bottom: 94px;
 }
 
-/*--before-footer::before {
+/*--
+before-footer::before {
   background-image: url(../images/company1.svg);
   display: block;
   content: "";
