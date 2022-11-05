@@ -66,7 +66,7 @@ button {
 	margin: 0;
 }
 
-/*--утилиты--*/
+/*------------утилиты-----------*/
 
 .logo {
 	color: var(--logo-color-text);
@@ -124,7 +124,7 @@ button {
 	margin-bottom: 20px;
 }
 
-/*-----header----*/
+/*-----------header--------------*/
 
 .page-header {
 	border-bottom: 1px solid rgba(236, 236, 236, 1);
@@ -184,14 +184,14 @@ button {
 	fill: currentColor;
 }
 
-/*-------------main nav--------*/
+/*-------------------------main nav----------------*/
 
 .main-nav {
 	display: flex;
 	align-items: center;
 }
 
-/*----------------hero---------*/
+/*-----------------hero-----------------*/
 
 .hero {
 	padding-top: 200px;
@@ -222,7 +222,7 @@ button {
 	text-transform: uppercase;
 }
 
-/*-----------кнопка замовити послугу------------*/
+/*--------------кнопка замовити послугу------------*/
 
 .hero-button {
 	font-family: inherit;
@@ -248,7 +248,7 @@ button {
 	background-color: var(--acent-btn-cl);
 }
 
-/*----------чим ми займаємось--------------*/
+/*--------------чим ми займаємось----------------*/
 .features-list {
 	display: flex;
 	gap: 30px;
@@ -277,7 +277,7 @@ button {
 	color: var(--ouwer-text-color);
 }
 
-/* --------роботи ----------------- */
+/* --------наші роботи ----------- */
 .work {
 	padding-top: 0;
 	padding-bottom: 94px;
@@ -287,7 +287,7 @@ button {
 	gap: 30px;
 }
 
-/*---------команда-----------------*/
+/*----------------------Команда-----------------*/
 
 .team {
 	background-color: var(--buttons-port-color);
@@ -351,7 +351,7 @@ button {
 	fill: currentColor;
 }
 
-/* --------------постійні клієнти------------------ */
+/* --------------clients------------- */
 
 .clients-list {
 	display: flex;
@@ -378,7 +378,7 @@ button {
 	fill: currentColor;
 }
 
-/*-------------footer----------------*/
+/*----------------footer--------------*/
 .footer {
 	padding: 60px 0;
 	background-color: var(--background-footer-color);
@@ -427,7 +427,7 @@ address {
 	color: var(--acent-color);
 }
 
-/*-----------Сторінка портофоліо-------------*/
+/*--------------portfolio------------*/
 
 /*--header--*/
 /*--баді прописан зверху для обох сторінок--*/
@@ -446,7 +446,7 @@ address {
 	color: var(--acent-color);
 }
 
-/*------------Кнопки фільтри--------------*/
+/*-------------Кнопки--------------*/
 
 .filters {
 	display: flex;
@@ -480,7 +480,7 @@ address {
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/*------------------main----------------*/
+/*---------------main------------*/
 
 .portfolio-list {
 	display: flex;
